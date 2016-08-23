@@ -2,20 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1c421f9-4210-4f09-bafd-c734cbe6acd1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/status-selector.ts" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/node.hbs" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MeanHouse.iml" afterPath="$PROJECT_DIR$/MeanHouse.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/app.component.ts" afterPath="$PROJECT_DIR$/assets/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/boot.ts" afterPath="$PROJECT_DIR$/assets/app/boot.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/bedroom.js" afterPath="$PROJECT_DIR$/models/bedroom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/house.js" afterPath="$PROJECT_DIR$/models/house.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/app.js" afterPath="$PROJECT_DIR$/routes/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/bedrooms.js" afterPath="$PROJECT_DIR$/routes/bedrooms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.js" afterPath="$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.js.map" afterPath="$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.js" afterPath="$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.js.map" afterPath="$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.ts" afterPath="$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/house.component.js" afterPath="$PROJECT_DIR$/assets/app/houses/house.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/house.component.js.map" afterPath="$PROJECT_DIR$/assets/app/houses/house.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/house.component.ts" afterPath="$PROJECT_DIR$/assets/app/houses/house.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/house.service.js" afterPath="$PROJECT_DIR$/assets/app/houses/house.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/house.service.js.map" afterPath="$PROJECT_DIR$/assets/app/houses/house.service.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/house.service.ts" afterPath="$PROJECT_DIR$/assets/app/houses/house.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/status-selector.js" afterPath="$PROJECT_DIR$/assets/app/status-selector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/status-selector.js.map" afterPath="$PROJECT_DIR$/assets/app/status-selector.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/bedrooms/bedroom.component.js" afterPath="$PROJECT_DIR$/public/js/app/bedrooms/bedroom.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/houses/house.component.js" afterPath="$PROJECT_DIR$/public/js/app/houses/house.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/houses/house.service.js" afterPath="$PROJECT_DIR$/public/js/app/houses/house.service.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/houses.js" afterPath="$PROJECT_DIR$/routes/houses.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
     </list>
     <ignored path="MeanHouse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +42,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="house.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="house.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/house.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#45#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="house.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/houses/house.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="210">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc;n#House#0" expanded="false" />
               </folding>
@@ -53,15 +69,32 @@
       <file leaf-file-name="bedroom-input.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="27" column="118" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="118" />
+            <state relative-caret-position="-398">
+              <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
               <folding>
-                <marker date="1471818073000" expanded="true" signature="450:1663" ph="..." />
-                <marker date="1471818073000" expanded="true" signature="512:1644" ph="..." />
-                <marker date="1471818073000" expanded="true" signature="553:764" ph="..." />
-                <marker date="1471818073000" expanded="true" signature="805:1010" ph="..." />
-                <marker date="1471818073000" expanded="true" signature="1051:1391" ph="..." />
-                <marker date="1471818073000" expanded="true" signature="1218:1368" ph="..." />
+                <marker date="1471971957000" expanded="true" signature="450:1663" ph="..." />
+                <marker date="1471971957000" expanded="true" signature="512:1644" ph="..." />
+                <marker date="1471971957000" expanded="true" signature="553:764" ph="..." />
+                <marker date="1471971957000" expanded="true" signature="805:1010" ph="..." />
+                <marker date="1471971957000" expanded="true" signature="1051:1391" ph="..." />
+                <marker date="1471971957000" expanded="true" signature="1218:1368" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bedroom.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+              <folding>
+                <element signature="e#46#117#0" expanded="true" />
+                <marker date="1471983800000" expanded="true" signature="366:879" ph="..." />
+                <marker date="1471983800000" expanded="true" signature="403:464" ph="..." />
+                <marker date="1471983800000" expanded="true" signature="506:860" ph="..." />
+                <marker date="1471983800000" expanded="true" signature="543:672" ph="..." />
+                <marker date="1471983800000" expanded="true" signature="709:838" ph="..." />
               </folding>
             </state>
           </provider>
@@ -83,31 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.hbs">
+      <file leaf-file-name="houses.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/houses.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bedroom.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bedroom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/bedroom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            <state relative-caret-position="1050">
+              <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
               </folding>
@@ -115,11 +128,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="www" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/www">
+      <file leaf-file-name="bedrooms.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/bedrooms.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+            <state relative-caret-position="226">
+              <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#45#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bedroom.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-158">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -128,8 +153,8 @@
       <file leaf-file-name="house.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/houses/house.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+            <state relative-caret-position="82">
+              <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
               <folding>
                 <element signature="e#46#78#0" expanded="true" />
               </folding>
@@ -140,27 +165,14 @@
       <file leaf-file-name="house.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/houses/house.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="180">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding>
-                <marker date="1471911440000" expanded="true" signature="300:777" ph="..." />
-                <marker date="1471911440000" expanded="true" signature="337:392" ph="..." />
-                <marker date="1471911440000" expanded="true" signature="434:758" ph="..." />
-                <marker date="1471911440000" expanded="true" signature="471:570" ph="..." />
-                <marker date="1471911440000" expanded="true" signature="607:736" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="houses-list.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/houses/houses-list.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1471286814000" expanded="true" signature="341:478" ph="..." />
+                <marker date="1471983876000" expanded="true" signature="300:745" ph="..." />
+                <marker date="1471983876000" expanded="true" signature="337:392" ph="..." />
+                <marker date="1471983876000" expanded="true" signature="434:726" ph="..." />
+                <marker date="1471983876000" expanded="true" signature="471:538" ph="..." />
+                <marker date="1471983876000" expanded="true" signature="575:704" ph="..." />
               </folding>
             </state>
           </provider>
@@ -208,20 +220,20 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/assets/app/boot.ts" />
         <option value="$PROJECT_DIR$/assets/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.ts" />
         <option value="$PROJECT_DIR$/models/house.js" />
         <option value="$PROJECT_DIR$/assets/app/bedrooms/bedroom.ts" />
-        <option value="$PROJECT_DIR$/routes/houses.js" />
         <option value="$PROJECT_DIR$/routes/bedrooms.js" />
         <option value="$PROJECT_DIR$/assets/app/status-selector.ts" />
-        <option value="$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.ts" />
         <option value="$PROJECT_DIR$/models/bedroom.js" />
-        <option value="$PROJECT_DIR$/assets/app/bedrooms/bedroom.service.ts" />
         <option value="$PROJECT_DIR$/views/index.hbs" />
-        <option value="$PROJECT_DIR$/assets/app/houses/house.service.ts" />
-        <option value="$PROJECT_DIR$/assets/app/houses/house.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/houses/house-input.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/houses/house.ts" />
+        <option value="$PROJECT_DIR$/assets/app/bedrooms/bedroom.service.ts" />
+        <option value="$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/houses/house.service.ts" />
+        <option value="$PROJECT_DIR$/routes/houses.js" />
+        <option value="$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/houses/house.component.ts" />
       </list>
     </option>
   </component>
@@ -239,10 +251,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1600" />
     <option name="y" value="23" />
-    <option name="width" value="1600" />
-    <option name="height" value="873" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -453,8 +464,9 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.MeanHouse">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -693,6 +705,18 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
@@ -782,22 +806,35 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="false" name="MeanHouse JavaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:3000">
+      <method />
+    </configuration>
     <configuration default="false" name="MeanHouse" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
       <browser start="true" with-js-debugger="true" url="http://localhost:3000" />
       <method />
     </configuration>
-    <configuration default="false" name="MeanHouse JavaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:3000">
-      <method />
-    </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.MeanHouse" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.MeanHouse JavaScript" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.MeanHouse JavaScript" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.MeanHouse" />
     </list>
   </component>
   <component name="SbtLocalSettings">
@@ -823,15 +860,15 @@
       <workItem from="1471880714568" duration="1059000" />
       <workItem from="1471886482448" duration="294000" />
       <workItem from="1471886835689" duration="297000" />
-      <workItem from="1471888320866" duration="3960000" />
+      <workItem from="1471888320866" duration="7724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78083000" />
+    <option name="totallyTimeSpent" value="81847000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1600" y="23" width="1600" height="873" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -842,19 +879,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19768934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24878837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4433121" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50807637" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -893,17 +930,12 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/houses.js</url>
-          <line>94</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/bedrooms.js</url>
           <line>47</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="32" />
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
@@ -943,12 +975,12 @@
         <state relative-caret-position="285">
           <caret line="27" column="118" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="118" />
           <folding>
-            <marker date="1471818073000" expanded="true" signature="450:1663" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="512:1644" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="553:764" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="805:1010" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="1051:1391" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="1218:1368" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="450:1663" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="512:1644" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="553:764" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="805:1010" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="1051:1391" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="1218:1368" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1054,12 +1086,12 @@
         <state relative-caret-position="0">
           <caret line="27" column="118" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="118" />
           <folding>
-            <marker date="1471818073000" expanded="true" signature="450:1663" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="512:1644" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="553:764" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="805:1010" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="1051:1391" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="1218:1368" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="450:1663" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="512:1644" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="553:764" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="805:1010" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="1051:1391" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="1218:1368" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1117,12 +1149,12 @@
         <state relative-caret-position="0">
           <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
           <folding>
-            <marker date="1471818073000" expanded="true" signature="450:1663" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="512:1644" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="553:764" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="805:1010" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="1051:1391" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="1218:1368" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="450:1663" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="512:1644" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="553:764" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="805:1010" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="1051:1391" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="1218:1368" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1211,13 +1243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedrooms.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1246,16 +1271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/bedrooms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1264,47 +1279,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/house.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/houses.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="118" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="118" />
-          <folding>
-            <marker date="1471818073000" expanded="true" signature="450:1663" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="512:1644" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="553:764" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="805:1010" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="1051:1391" ph="..." />
-            <marker date="1471818073000" expanded="true" signature="1218:1368" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/houses/houses-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <marker date="1471286814000" expanded="true" signature="341:478" ph="..." />
           </folding>
         </state>
@@ -1328,43 +1308,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/houses/house.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-          <folding>
-            <element signature="e#46#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/houses/house.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding>
-            <marker date="1471911440000" expanded="true" signature="300:777" ph="..." />
-            <marker date="1471911440000" expanded="true" signature="337:392" ph="..." />
-            <marker date="1471911440000" expanded="true" signature="434:758" ph="..." />
-            <marker date="1471911440000" expanded="true" signature="471:570" ph="..." />
-            <marker date="1471911440000" expanded="true" signature="607:736" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1384,10 +1332,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/houses/house.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state relative-caret-position="210">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc;n#House#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/bedrooms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-398">
+          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+          <folding>
+            <marker date="1471971957000" expanded="true" signature="450:1663" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="512:1644" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="553:764" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="805:1010" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="1051:1391" ph="..." />
+            <marker date="1471971957000" expanded="true" signature="1218:1368" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/houses/house.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
+          <folding>
+            <element signature="e#46#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/houses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#46#117#0" expanded="true" />
+            <marker date="1471983800000" expanded="true" signature="366:879" ph="..." />
+            <marker date="1471983800000" expanded="true" signature="403:464" ph="..." />
+            <marker date="1471983800000" expanded="true" signature="506:860" ph="..." />
+            <marker date="1471983800000" expanded="true" signature="543:672" ph="..." />
+            <marker date="1471983800000" expanded="true" signature="709:838" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/houses/house.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <marker date="1471983876000" expanded="true" signature="300:745" ph="..." />
+            <marker date="1471983876000" expanded="true" signature="337:392" ph="..." />
+            <marker date="1471983876000" expanded="true" signature="434:726" ph="..." />
+            <marker date="1471983876000" expanded="true" signature="471:538" ph="..." />
+            <marker date="1471983876000" expanded="true" signature="575:704" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/house.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
           </folding>
         </state>
       </provider>

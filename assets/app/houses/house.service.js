@@ -44,6 +44,14 @@ var HouseService = (function () {
         })
             .catch(function (error) { return Observable_1.Observable.throw(error.json()); });
     };
+    HouseService.prototype.getHouseAddress = function (houseId) {
+        return this._http.get('http://localhost:3000/house/' + houseId)
+            .map(function (response) {
+            var data = response.json().obj;
+            return data.address;
+        })
+            .catch(function (error) { return Observable_1.Observable.throw(error.json()); });
+    };
     HouseService.prototype.updateHouse = function (house) {
         var body = JSON.stringify(house);
         var headers = new http_1.Headers({ 'Content-Type': 'application/json' });

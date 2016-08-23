@@ -5,6 +5,7 @@ import { Component, Input, Output, EventEmitter } from "@angular/core";
 
 import { Bedroom } from "./bedroom";
 import { BedroomService } from "./bedroom.service";
+import { HouseService } from "../houses/house.service";
 
 @Component({
     selector: 'my-bedroom',
@@ -15,7 +16,7 @@ import { BedroomService } from "./bedroom.service";
             </div>
             <footer class="panel-footer">
                 <div class="author">
-                    Belongs to {{ bedroom.bedSize }} | {{ bedroom.sqFt }} sq. ft
+                    Belongs to {{ houseAddress ? houseAddress : "no house" }} | {{ bedroom.sqFt }} sq. ft
                 </div>
                 <div class="config">
                     <a (click)="onEdit()">Edit</a>
@@ -42,14 +43,30 @@ import { BedroomService } from "./bedroom.service";
 export class BedroomComponent {
     @Input() bedroom:Bedroom;
     @Output() editClicked = new EventEmitter<string>();
+    houseAddress : string;
 
-    constructor (private _bedroomService: BedroomService) {}
+    constructor (private _bedroomService: BedroomService, private _houseService: HouseService) {}
+
+    ngOnInit(){
+        if(this.bedroom.houseId){
+            this._houseService.getHouseAddress(this.bedroom.houseId)
+                .subscribe(
+                    data => this.houseAddress = data,
+                    error => console.error(error)
+                );
+        }
+
+    }
 
     onEdit() {
         this._bedroomService.editBedroom(this.bedroom);
     }
 
     onDelete() {
-        this._bedroomService.deleteBedroom(this.bedroom);
+        this._bedroomService.deleteBedroom(this.bedroom)
+            .subscribe(
+                data => console.log(data),
+                error => console.error(error)
+            );
     }
 }

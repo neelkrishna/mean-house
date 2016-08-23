@@ -23,7 +23,7 @@ router.get('/', function(req, res, next){
 });
 
 router.get('/:id', function(req, res, next){
-    House.find()
+    House.findById(req.params.id)
         .exec(function(err, doc){
             if(err){
                 return res.status(404).json({
@@ -75,7 +75,7 @@ router.patch('/:id', function(req, res, next){
         }
         doc.address = req.body.address;
         doc.sqFt = req.body.sqFt;
-        doc.bedrooms = req.body.bedrooms
+        doc.bedroomIds = req.body.bedrooms
         doc.save(function(err, result){
             if(err){
                 return res.status(404).json({
@@ -90,6 +90,8 @@ router.patch('/:id', function(req, res, next){
         });
     })
 });
+
+
 
 router.delete('/:id', function (req, res, next) {
     House.findById(req.params.id, function (err, doc) {

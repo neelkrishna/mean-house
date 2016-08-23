@@ -41,6 +41,15 @@ export class HouseService {
             .catch(error => Observable.throw(error.json()));
     }
 
+    getHouseAddress(houseId){
+        return this._http.get('http://localhost:3000/house/' + houseId)
+            .map(response => {
+                const data = response.json().obj;
+                return data.address;
+            })
+            .catch(error => Observable.throw(error.json()));
+    }
+
     updateHouse(house: House){
         const body = JSON.stringify(house);
         const headers = new Headers({'Content-Type': 'application/json'});

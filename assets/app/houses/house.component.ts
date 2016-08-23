@@ -15,7 +15,7 @@ import { HouseService } from "./house.service";
             </div>
             <footer class="panel-footer">
                 <div class="author">
-                    {{ house.bedrooms }} bedrooms | {{ house.sqFt }} sq. ft
+                    {{ house.sqFt }} sq. ft
                 </div>
                 <div class="config">
                     <a (click)="onEdit()">Edit</a>

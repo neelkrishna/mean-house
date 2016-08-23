@@ -30,7 +30,7 @@ var HouseComponent = (function () {
     HouseComponent = __decorate([
         core_1.Component({
             selector: 'my-house',
-            template: "\n        <article class=\"panel panel-default\">\n            <div class=\"panel-body\">\n                {{ house.address }}\n            </div>\n            <footer class=\"panel-footer\">\n                <div class=\"author\">\n                    {{ house.bedrooms }} bedrooms | {{ house.sqFt }} sq. ft\n                </div>\n                <div class=\"config\">\n                    <a (click)=\"onEdit()\">Edit</a>\n                    <a (click)=\"onDelete()\">Delete</a>\n                </div>\n            </footer>\n        </article>\n    ",
+            template: "\n        <article class=\"panel panel-default\">\n            <div class=\"panel-body\">\n                {{ house.address }}\n            </div>\n            <footer class=\"panel-footer\">\n                <div class=\"author\">\n                    {{ house.sqFt }} sq. ft\n                </div>\n                <div class=\"config\">\n                    <a (click)=\"onEdit()\">Edit</a>\n                    <a (click)=\"onDelete()\">Delete</a>\n                </div>\n            </footer>\n        </article>\n    ",
             styles: ["\n        .author {\n            display: inline-block;\n            font-style: italic;\n            font-size: 12px;\n            width: 80%;\n        }\n        .config {\n            display: inline-block;\n            text-align: right;\n            font-size: 12px;\n            width: 19%;\n        }\n    "]
         })
     ], HouseComponent);
