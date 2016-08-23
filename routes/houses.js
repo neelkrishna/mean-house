@@ -10,7 +10,7 @@ router.get('/', function(req, res, next){
         .exec(function(err, docs){
             if(err){
                 return res.status(404).json({
-                    title: 'An error occured',
+                    title: 'An error occurred',
                     error: err
                 });
             }
@@ -22,9 +22,28 @@ router.get('/', function(req, res, next){
 
 });
 
+router.get('/:id', function(req, res, next){
+    House.find()
+        .exec(function(err, doc){
+            if(err){
+                return res.status(404).json({
+                    title: 'An error occurred',
+                    error: err
+                });
+            }
+            res.status(200).json({
+                message: 'Success',
+                obj: doc
+            });
+        });
+
+});
+
 router.post('/', function(req, res, next){
     var house = new House({
-        //fill house info
+        address: req.body.address,
+        sqFt: req.body.sqFt,
+        bedroomIds: req.body.bedroomIds
     });
     house.save(function(err, result){
         if(err){
@@ -40,7 +59,7 @@ router.post('/', function(req, res, next){
     });
 });
 
-router.patch('/', function(req, res, next){
+router.patch('/:id', function(req, res, next){
     House.findById(req.params.id, function(err, doc){
         if(err){
             return res.status(404).json({
@@ -54,7 +73,9 @@ router.patch('/', function(req, res, next){
                 error: {message: 'House could not be found'}
             });
         }
-        doc.content = req.body.content;
+        doc.address = req.body.address;
+        doc.sqFt = req.body.sqFt;
+        doc.bedrooms = req.body.bedrooms
         doc.save(function(err, result){
             if(err){
                 return res.status(404).json({
@@ -70,5 +91,33 @@ router.patch('/', function(req, res, next){
     })
 });
 
+router.delete('/:id', function (req, res, next) {
+    House.findById(req.params.id, function (err, doc) {
+        if (err) {
+            return res.status(404).json({
+                title: 'An error occurred',
+                error: err
+            });
+        }
+        if (!doc) {
+            return res.status(404).json({
+                title: 'No houses found',
+                error: {message: 'House could not be found'}
+            });
+        }
+        doc.remove(function (err, result) {
+            if (err) {
+                return res.status(404).json({
+                    title: 'An error occurred',
+                    error: err
+                });
+            }
+            res.status(200).json({
+                message: 'Success',
+                obj: result
+            });
+        });
+    });
+});
 
 module.exports = router;
