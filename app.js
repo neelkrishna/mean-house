@@ -9,6 +9,7 @@ var mongoose = require('mongoose');
 var appRoutes = require('./routes/app');
 var houseRoutes = require('./routes/houses');
 var bedroomRoutes = require('./routes/bedrooms');
+var userRoutes = require('./routes/users');
 
 var app = express();
 mongoose.connect('localhost:27017/mean-house');
@@ -33,6 +34,7 @@ app.use(function(req, res, next) {
 
 app.use('/house', houseRoutes);
 app.use('/bedroom', bedroomRoutes);
+app.use('/user', userRoutes);
 app.use('/', appRoutes);
 
 // catch 404 and forward to error handler

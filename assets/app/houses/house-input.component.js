@@ -12,9 +12,10 @@ var core_1 = require("@angular/core");
 var house_1 = require("./house");
 require('rxjs/Rx');
 var HouseInputComponent = (function () {
-    function HouseInputComponent(_houseService, _bedroomService) {
+    function HouseInputComponent(_houseService, _bedroomService, _errorService) {
         this._houseService = _houseService;
         this._bedroomService = _bedroomService;
+        this._errorService = _errorService;
         this.house = null;
         this.bedroomList = null;
     }
@@ -25,7 +26,7 @@ var HouseInputComponent = (function () {
             this.house.sqFt = form.sqFt;
             this.house.bedroomIds = form.bedrooms;
             this._houseService.updateHouse(this.house)
-                .subscribe(function (data) { return console.log(data); }, function (error) { return console.error(error); });
+                .subscribe(function (data) { return console.log(data); }, function (error) { return _this._errorService.handleError(error); });
             this.house = null;
         }
         else {
@@ -34,7 +35,7 @@ var HouseInputComponent = (function () {
                 .subscribe(function (data) {
                 console.log(data);
                 _this._houseService.houses.push(data);
-            }, function (error) { return console.error(error); });
+            }, function (error) { return _this._errorService.handleError(error); });
         }
     };
     HouseInputComponent.prototype.onCancel = function () {

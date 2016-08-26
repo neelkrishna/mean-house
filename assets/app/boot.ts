@@ -8,5 +8,7 @@ import { HTTP_PROVIDERS } from "@angular/http";
 import { AppComponent } from "./app.component";
 import { HouseService } from "./houses/house.service";
 import { BedroomService } from "./bedrooms/bedroom.service";
+import { AuthService } from "./auth/auth.service";
+import { ErrorService } from "./errors/error.service";
 
-bootstrap(AppComponent, [HouseService, BedroomService, ROUTER_PROVIDERS, provide(LocationStrategy, {useClass: HashLocationStrategy}), HTTP_PROVIDERS]);
+bootstrap(AppComponent, [HouseService, BedroomService, AuthService, ErrorService, ROUTER_PROVIDERS, provide(LocationStrategy, {useClass: HashLocationStrategy}), HTTP_PROVIDERS]);

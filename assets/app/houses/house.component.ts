@@ -5,6 +5,7 @@ import { Component, Input, Output, EventEmitter } from "@angular/core";
 
 import { House } from "./house";
 import { HouseService } from "./house.service";
+import { ErrorService } from "../errors/error.service";
 
 @Component({
     selector: 'my-house',
@@ -43,7 +44,7 @@ export class HouseComponent {
     @Input() house:House;
     @Output() editClicked = new EventEmitter<string>();
 
-    constructor (private _houseService: HouseService) {}
+    constructor (private _houseService: HouseService, private _errorService: ErrorService) {}
 
     onEdit() {
         this._houseService.editHouse(this.house);
@@ -53,7 +54,7 @@ export class HouseComponent {
         this._houseService.deleteHouse(this.house)
             .subscribe(
                 data => console.log(data),
-                error => console.error(error)
+                error => this._errorService.handleError(error)
             );
     }
 }

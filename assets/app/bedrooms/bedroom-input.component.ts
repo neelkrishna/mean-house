@@ -7,7 +7,7 @@ import { Bedroom } from "./bedroom";
 import { House } from "../houses/house";
 import { BedroomService } from "./bedroom.service";
 import { HouseService } from "../houses/house.service";
-import { StatusSelector } from "../status-selector";
+import { ErrorService } from "../errors/error.service";
 
 @Component({
     selector: 'my-bedroom-input',
@@ -37,7 +37,7 @@ import { StatusSelector } from "../status-selector";
 export class BedroomInputComponent implements OnInit{
     bedroom:Bedroom = null;
     houseList:House[] = null;
-    constructor(private _bedroomService:BedroomService, private _houseService:HouseService) {
+    constructor(private _bedroomService:BedroomService, private _houseService:HouseService, private _errorService: ErrorService) {
     }
 
     onSubmit(form:any) {
@@ -48,7 +48,7 @@ export class BedroomInputComponent implements OnInit{
             this._bedroomService.updateBedroom(this.bedroom)
                 .subscribe(
                     data => console.log(data),
-                    error => console.error(error)
+                    error => this._errorService.handleError(error)
                 );
             this.bedroom = null;
         }else{
@@ -59,7 +59,7 @@ export class BedroomInputComponent implements OnInit{
                         console.log(data);
                         this._bedroomService.bedrooms.push(data);
                     },
-                    error => console.log(error.error)
+                    error => this._errorService.handleError(error)
                 );
         }
 

@@ -7,6 +7,7 @@ import { House } from "./house";
 import { Bedroom } from "../bedrooms/bedroom";
 import { BedroomService } from "../bedrooms/bedroom.service";
 import { HouseService } from "./house.service";
+import { ErrorService } from "../errors/error.service";
 import 'rxjs/Rx';
 import {Observable} from "rxjs/Observable";
 
@@ -32,7 +33,7 @@ import {Observable} from "rxjs/Observable";
 export class HouseInputComponent implements OnInit{
     house:House = null;
     bedroomList:Bedroom[] = null;
-    constructor(private _houseService:HouseService, private _bedroomService:BedroomService) {
+    constructor(private _houseService:HouseService, private _bedroomService:BedroomService, private _errorService: ErrorService) {
     }
 
     onSubmit(form:any) {
@@ -44,7 +45,7 @@ export class HouseInputComponent implements OnInit{
             this._houseService.updateHouse(this.house)
                 .subscribe(
                     data => console.log(data),
-                    error => console.error(error)
+                    error => this._errorService.handleError(error)
                 );
             this.house = null;
         }else{
@@ -55,7 +56,7 @@ export class HouseInputComponent implements OnInit{
                         console.log(data);
                         this._houseService.houses.push(data);
                     },
-                    error => console.error(error)
+                    error => this._errorService.handleError(error)
                 );
         }
 

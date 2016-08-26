@@ -10,16 +10,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
  */
 var core_1 = require("@angular/core");
 var HouseComponent = (function () {
-    function HouseComponent(_houseService) {
+    function HouseComponent(_houseService, _errorService) {
         this._houseService = _houseService;
+        this._errorService = _errorService;
         this.editClicked = new core_1.EventEmitter();
     }
     HouseComponent.prototype.onEdit = function () {
         this._houseService.editHouse(this.house);
     };
     HouseComponent.prototype.onDelete = function () {
+        var _this = this;
         this._houseService.deleteHouse(this.house)
-            .subscribe(function (data) { return console.log(data); }, function (error) { return console.error(error); });
+            .subscribe(function (data) { return console.log(data); }, function (error) { return _this._errorService.handleError(error); });
     };
     __decorate([
         core_1.Input()

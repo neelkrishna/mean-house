@@ -2,24 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1c421f9-4210-4f09-bafd-c734cbe6acd1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/app.component.js" afterPath="$PROJECT_DIR$/assets/app/app.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/app.component.js.map" afterPath="$PROJECT_DIR$/assets/app/app.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/app.component.ts" afterPath="$PROJECT_DIR$/assets/app/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/auth/auth.service.ts" afterPath="$PROJECT_DIR$/assets/app/auth/auth.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/auth/authentication.component.ts" afterPath="$PROJECT_DIR$/assets/app/auth/authentication.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/auth/logout.component.ts" afterPath="$PROJECT_DIR$/assets/app/auth/logout.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/auth/signin.component.ts" afterPath="$PROJECT_DIR$/assets/app/auth/signin.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/auth/signup.component.ts" afterPath="$PROJECT_DIR$/assets/app/auth/signup.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/auth/user.ts" afterPath="$PROJECT_DIR$/assets/app/auth/user.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.js" afterPath="$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.js.map" afterPath="$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.ts" afterPath="$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.js" afterPath="$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.js.map" afterPath="$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.ts" afterPath="$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bedrooms/bedrooms-list.component.js" afterPath="$PROJECT_DIR$/assets/app/bedrooms/bedrooms-list.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bedrooms/bedrooms-list.component.js.map" afterPath="$PROJECT_DIR$/assets/app/bedrooms/bedrooms-list.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bedrooms/bedrooms.component.js" afterPath="$PROJECT_DIR$/assets/app/bedrooms/bedrooms.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/bedrooms/bedrooms.component.js.map" afterPath="$PROJECT_DIR$/assets/app/bedrooms/bedrooms.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/boot.js" afterPath="$PROJECT_DIR$/assets/app/boot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/boot.js.map" afterPath="$PROJECT_DIR$/assets/app/boot.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/boot.ts" afterPath="$PROJECT_DIR$/assets/app/boot.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/errors/error.component.ts" afterPath="$PROJECT_DIR$/assets/app/errors/error.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/errors/error.service.ts" afterPath="$PROJECT_DIR$/assets/app/errors/error.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/errors/error.ts" afterPath="$PROJECT_DIR$/assets/app/errors/error.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/header.component.js" afterPath="$PROJECT_DIR$/assets/app/header.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/header.component.js.map" afterPath="$PROJECT_DIR$/assets/app/header.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/header.component.ts" afterPath="$PROJECT_DIR$/assets/app/header.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/house-input.component.js" afterPath="$PROJECT_DIR$/assets/app/houses/house-input.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/house-input.component.js.map" afterPath="$PROJECT_DIR$/assets/app/houses/house-input.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/house-input.component.ts" afterPath="$PROJECT_DIR$/assets/app/houses/house-input.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/house.component.js" afterPath="$PROJECT_DIR$/assets/app/houses/house.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/house.component.js.map" afterPath="$PROJECT_DIR$/assets/app/houses/house.component.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/house.component.ts" afterPath="$PROJECT_DIR$/assets/app/houses/house.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/house.service.js" afterPath="$PROJECT_DIR$/assets/app/houses/house.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/house.service.js.map" afterPath="$PROJECT_DIR$/assets/app/houses/house.service.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/house.service.ts" afterPath="$PROJECT_DIR$/assets/app/houses/house.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/status-selector.js" afterPath="$PROJECT_DIR$/assets/app/status-selector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/status-selector.js.map" afterPath="$PROJECT_DIR$/assets/app/status-selector.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/houses-list.component.js" afterPath="$PROJECT_DIR$/assets/app/houses/houses-list.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/houses-list.component.js.map" afterPath="$PROJECT_DIR$/assets/app/houses/houses-list.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/houses.component.js" afterPath="$PROJECT_DIR$/assets/app/houses/houses.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/houses/houses.component.js.map" afterPath="$PROJECT_DIR$/assets/app/houses/houses.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/user.js" afterPath="$PROJECT_DIR$/models/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/app.component.js" afterPath="$PROJECT_DIR$/public/js/app/app.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/bedrooms/bedroom-input.component.js" afterPath="$PROJECT_DIR$/public/js/app/bedrooms/bedroom-input.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/bedrooms/bedroom.component.js" afterPath="$PROJECT_DIR$/public/js/app/bedrooms/bedroom.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/boot.js" afterPath="$PROJECT_DIR$/public/js/app/boot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/header.component.js" afterPath="$PROJECT_DIR$/public/js/app/header.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/houses/house-input.component.js" afterPath="$PROJECT_DIR$/public/js/app/houses/house-input.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/houses/house.component.js" afterPath="$PROJECT_DIR$/public/js/app/houses/house.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/houses/house.service.js" afterPath="$PROJECT_DIR$/public/js/app/houses/house.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/houses.js" afterPath="$PROJECT_DIR$/routes/houses.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/users.js" afterPath="$PROJECT_DIR$/routes/users.js" />
     </list>
     <ignored path="MeanHouse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,137 +74,118 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="house.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/house.js">
+      <file leaf-file-name="authentication.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/auth/authentication.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+              <folding>
+                <marker date="1471989448000" expanded="true" signature="448:850" ph="..." />
+                <marker date="1471989448000" expanded="true" signature="499:832" ph="..." />
+                <marker date="1471989448000" expanded="true" signature="541:813" ph="..." />
+                <marker date="1471989448000" expanded="true" signature="884:943" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/auth/auth.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+              <folding>
+                <element signature="e#46#89#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/header.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
               <folding>
-                <element signature="e#0#45#0" expanded="false" />
+                <element signature="e#46#88#0" expanded="true" />
+                <marker date="1472157834000" expanded="true" signature="276:752" ph="..." />
+                <marker date="1472157834000" expanded="true" signature="327:734" ph="..." />
+                <marker date="1472157834000" expanded="true" signature="370:715" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="house.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/houses/house.ts">
+      <file leaf-file-name="boot.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/boot.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc;n#House#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bedroom-input.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-398">
-              <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-              <folding>
-                <marker date="1471971957000" expanded="true" signature="450:1663" ph="..." />
-                <marker date="1471971957000" expanded="true" signature="512:1644" ph="..." />
-                <marker date="1471971957000" expanded="true" signature="553:764" ph="..." />
-                <marker date="1471971957000" expanded="true" signature="805:1010" ph="..." />
-                <marker date="1471971957000" expanded="true" signature="1051:1391" ph="..." />
-                <marker date="1471971957000" expanded="true" signature="1218:1368" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bedroom.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-              <folding>
-                <element signature="e#46#117#0" expanded="true" />
-                <marker date="1471983800000" expanded="true" signature="366:879" ph="..." />
-                <marker date="1471983800000" expanded="true" signature="403:464" ph="..." />
-                <marker date="1471983800000" expanded="true" signature="506:860" ph="..." />
-                <marker date="1471983800000" expanded="true" signature="543:672" ph="..." />
-                <marker date="1471983800000" expanded="true" signature="709:838" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="house-input.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/houses/house-input.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
-              <folding>
-                <marker date="1471911670000" expanded="true" signature="461:1222" ph="..." />
-                <marker date="1471911670000" expanded="true" signature="461:1282" ph="..." />
-                <marker date="1471911670000" expanded="true" signature="523:1222" ph="..." />
-                <marker date="1471911670000" expanded="true" signature="564:772" ph="..." />
-                <marker date="1471911670000" expanded="true" signature="813:1016" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="houses.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/houses.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#45#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bedrooms.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/bedrooms.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#45#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bedroom.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-158">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="45">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="house.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/houses/house.service.ts">
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
+            <state relative-caret-position="178">
+              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
               <folding>
-                <element signature="e#46#78#0" expanded="true" />
+                <element signature="e#0#42#0" expanded="true" />
+                <marker date="1472160247000" expanded="true" signature="608:703" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="house.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/houses/house.component.ts">
+      <file leaf-file-name="www" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/www">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="-482">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding>
-                <marker date="1471983876000" expanded="true" signature="300:745" ph="..." />
-                <marker date="1471983876000" expanded="true" signature="337:392" ph="..." />
-                <marker date="1471983876000" expanded="true" signature="434:726" ph="..." />
-                <marker date="1471983876000" expanded="true" signature="471:538" ph="..." />
-                <marker date="1471983876000" expanded="true" signature="575:704" ph="..." />
+                <element signature="e#0#45#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -183,8 +196,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -211,29 +224,40 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/routes/app.js" />
-        <option value="$PROJECT_DIR$/assets/app/header.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/houses/houses.config.ts" />
         <option value="$PROJECT_DIR$/assets/app/houses/houses-list.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/houses/houses.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/bedrooms/bedrooms.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/bedrooms/bedrooms-list.component.ts" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/assets/app/boot.ts" />
-        <option value="$PROJECT_DIR$/assets/app/app.component.ts" />
         <option value="$PROJECT_DIR$/models/house.js" />
         <option value="$PROJECT_DIR$/assets/app/bedrooms/bedroom.ts" />
         <option value="$PROJECT_DIR$/routes/bedrooms.js" />
         <option value="$PROJECT_DIR$/assets/app/status-selector.ts" />
         <option value="$PROJECT_DIR$/models/bedroom.js" />
         <option value="$PROJECT_DIR$/views/index.hbs" />
-        <option value="$PROJECT_DIR$/assets/app/houses/house-input.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/houses/house.ts" />
         <option value="$PROJECT_DIR$/assets/app/bedrooms/bedroom.service.ts" />
-        <option value="$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/houses/house.service.ts" />
         <option value="$PROJECT_DIR$/routes/houses.js" />
+        <option value="$PROJECT_DIR$/assets/app/auth/user.ts" />
+        <option value="$PROJECT_DIR$/assets/app/auth/signup.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/auth/signin.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/auth/logout.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/auth/authentication.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/auth/auth.service.ts" />
+        <option value="$PROJECT_DIR$/assets/app/errors/error.ts" />
+        <option value="$PROJECT_DIR$/assets/app/errors/error.service.ts" />
+        <option value="$PROJECT_DIR$/assets/app/errors/error.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/boot.ts" />
         <option value="$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/houses/house.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/houses/house-input.component.ts" />
+        <option value="$PROJECT_DIR$/models/user.js" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/assets/app/header.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/app.component.ts" />
       </list>
     </option>
   </component>
@@ -251,9 +275,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1600" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="773" />
+    <option name="width" value="1600" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -280,9 +305,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -326,38 +348,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -447,12 +437,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="errors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MeanHouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MeanHouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bedrooms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MeanHouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MeanHouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -860,15 +897,16 @@
       <workItem from="1471880714568" duration="1059000" />
       <workItem from="1471886482448" duration="294000" />
       <workItem from="1471886835689" duration="297000" />
-      <workItem from="1471888320866" duration="7724000" />
+      <workItem from="1471888320866" duration="7817000" />
+      <workItem from="1471984035653" duration="14791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81847000" />
+    <option name="totallyTimeSpent" value="96731000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="-1600" y="23" width="1600" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -877,27 +915,28 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="-1500" y="123" width="1400" height="673" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28425097" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24878837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19768934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50807637" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50576186" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -935,7 +974,7 @@
           <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="41" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
@@ -950,127 +989,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/bedrooms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/houses.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="118" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="118" />
-          <folding>
-            <marker date="1471971957000" expanded="true" signature="450:1663" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="512:1644" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="553:764" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="805:1010" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="1051:1391" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="1218:1368" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/house.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/houses/house.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#House#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/bedrooms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/houses.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/house.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/houses/house.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#House#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/bedrooms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/houses.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1086,12 +1004,13 @@
         <state relative-caret-position="0">
           <caret line="27" column="118" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="118" />
           <folding>
-            <marker date="1471971957000" expanded="true" signature="450:1663" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="512:1644" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="553:764" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="805:1010" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="1051:1391" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="1218:1368" ph="..." />
+            <element signature="e#46#96#0" expanded="true" />
+            <marker date="1471990390000" expanded="true" signature="453:1666" ph="..." />
+            <marker date="1471990390000" expanded="true" signature="515:1647" ph="..." />
+            <marker date="1471990390000" expanded="true" signature="556:767" ph="..." />
+            <marker date="1471990390000" expanded="true" signature="808:1013" ph="..." />
+            <marker date="1471990390000" expanded="true" signature="1054:1394" ph="..." />
+            <marker date="1471990390000" expanded="true" signature="1221:1371" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1149,12 +1068,13 @@
         <state relative-caret-position="0">
           <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
           <folding>
-            <marker date="1471971957000" expanded="true" signature="450:1663" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="512:1644" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="553:764" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="805:1010" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="1051:1391" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="1218:1368" ph="..." />
+            <element signature="e#46#96#0" expanded="true" />
+            <marker date="1471990390000" expanded="true" signature="453:1666" ph="..." />
+            <marker date="1471990390000" expanded="true" signature="515:1647" ph="..." />
+            <marker date="1471990390000" expanded="true" signature="556:767" ph="..." />
+            <marker date="1471990390000" expanded="true" signature="808:1013" ph="..." />
+            <marker date="1471990390000" expanded="true" signature="1054:1394" ph="..." />
+            <marker date="1471990390000" expanded="true" signature="1221:1371" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1173,24 +1093,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/header.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/houses/houses.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/boot.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1222,45 +1128,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@angular/http/src/http.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedrooms-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedrooms.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1279,54 +1150,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/houses/houses-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <marker date="1471286814000" expanded="true" signature="341:478" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/bedroom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/houses/house-input.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
-          <folding>
-            <marker date="1471911670000" expanded="true" signature="461:1222" ph="..." />
-            <marker date="1471911670000" expanded="true" signature="461:1282" ph="..." />
-            <marker date="1471911670000" expanded="true" signature="523:1222" ph="..." />
-            <marker date="1471911670000" expanded="true" signature="564:772" ph="..." />
-            <marker date="1471911670000" expanded="true" signature="813:1016" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1342,7 +1169,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/bedrooms.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="1065">
           <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
@@ -1350,24 +1177,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-398">
-          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-          <folding>
-            <marker date="1471971957000" expanded="true" signature="450:1663" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="512:1644" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="553:764" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="805:1010" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="1051:1391" ph="..." />
-            <marker date="1471971957000" expanded="true" signature="1218:1368" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
+        <state relative-caret-position="90">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding />
         </state>
@@ -1375,10 +1187,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/houses/house.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
+        <state relative-caret-position="570">
           <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
           <folding>
-            <element signature="e#46#78#0" expanded="true" />
+            <element signature="e#46#78#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1393,42 +1205,303 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.ts">
+    <entry file="file://$PROJECT_DIR$/models/house.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/auth/user.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc;n#User#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/auth/logout.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#46#88#0" expanded="true" />
+            <marker date="1471989418000" expanded="true" signature="284:383" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/errors/error.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc;n#Error#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/errors/error.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+          <folding>
+            <marker date="1471989605000" expanded="true" signature="401:1200" ph="..." />
+            <marker date="1471989605000" expanded="true" signature="440:1162" ph="..." />
+            <marker date="1471989605000" expanded="true" signature="484:1119" ph="..." />
+            <marker date="1471989605000" expanded="true" signature="531:787" ph="..." />
+            <marker date="1471989605000" expanded="true" signature="832:910" ph="..." />
+            <marker date="1471989605000" expanded="true" signature="957:1096" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/errors/error.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#46#91#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
           <folding>
             <element signature="e#46#117#0" expanded="true" />
-            <marker date="1471983800000" expanded="true" signature="366:879" ph="..." />
-            <marker date="1471983800000" expanded="true" signature="403:464" ph="..." />
-            <marker date="1471983800000" expanded="true" signature="506:860" ph="..." />
-            <marker date="1471983800000" expanded="true" signature="543:672" ph="..." />
-            <marker date="1471983800000" expanded="true" signature="709:838" ph="..." />
+            <marker date="1471990159000" expanded="true" signature="422:935" ph="..." />
+            <marker date="1471990159000" expanded="true" signature="459:520" ph="..." />
+            <marker date="1471990159000" expanded="true" signature="562:916" ph="..." />
+            <marker date="1471990159000" expanded="true" signature="599:728" ph="..." />
+            <marker date="1471990159000" expanded="true" signature="765:894" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/houses/house.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="382">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding>
-            <marker date="1471983876000" expanded="true" signature="300:745" ph="..." />
-            <marker date="1471983876000" expanded="true" signature="337:392" ph="..." />
-            <marker date="1471983876000" expanded="true" signature="434:726" ph="..." />
-            <marker date="1471983876000" expanded="true" signature="471:538" ph="..." />
-            <marker date="1471983876000" expanded="true" signature="575:704" ph="..." />
+            <element signature="e#46#117#0" expanded="true" />
+            <marker date="1471990219000" expanded="true" signature="356:801" ph="..." />
+            <marker date="1471990219000" expanded="true" signature="393:448" ph="..." />
+            <marker date="1471990219000" expanded="true" signature="490:782" ph="..." />
+            <marker date="1471990219000" expanded="true" signature="527:594" ph="..." />
+            <marker date="1471990219000" expanded="true" signature="631:760" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/house.js">
+    <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedrooms.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="75">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedroom-input.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="83" column="59" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="59" />
+          <folding>
+            <element signature="e#46#96#0" expanded="true" />
+            <marker date="1471990390000" expanded="true" signature="453:1666" ph="..." />
+            <marker date="1471990390000" expanded="true" signature="515:1647" ph="..." />
+            <marker date="1471990390000" expanded="true" signature="556:767" ph="..." />
+            <marker date="1471990390000" expanded="true" signature="808:1013" ph="..." />
+            <marker date="1471990390000" expanded="true" signature="1054:1394" ph="..." />
+            <marker date="1471990390000" expanded="true" signature="1221:1371" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/bedrooms/bedrooms-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <marker date="1471289022000" expanded="true" signature="401:552" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/houses/house-input.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="51" column="88" selection-start-line="51" selection-start-column="88" selection-end-line="51" selection-end-column="88" />
+          <folding>
+            <element signature="e#46#96#0" expanded="true" />
+            <marker date="1471990475000" expanded="true" signature="517:1278" ph="..." />
+            <marker date="1471990475000" expanded="true" signature="517:1338" ph="..." />
+            <marker date="1471990475000" expanded="true" signature="579:1278" ph="..." />
+            <marker date="1471990475000" expanded="true" signature="620:828" ph="..." />
+            <marker date="1471990475000" expanded="true" signature="869:1072" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/houses/houses-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <marker date="1471286814000" expanded="true" signature="341:478" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/typescriptCompiler/external/lib.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="16916" column="12" selection-start-line="16916" selection-start-column="12" selection-end-line="16916" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/auth/signin.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding>
+            <element signature="e#46#96#0" expanded="true" />
+            <marker date="1471989330000" expanded="true" signature="460:1143" ph="..." />
+            <marker date="1471989330000" expanded="true" signature="526:1124" ph="..." />
+            <marker date="1471989330000" expanded="true" signature="567:754" ph="..." />
+            <marker date="1471989330000" expanded="true" signature="795:998" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/auth/signup.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="e#46#96#0" expanded="true" />
+            <marker date="1471989155000" expanded="true" signature="418:1587" ph="..." />
+            <marker date="1471989155000" expanded="true" signature="484:1568" ph="..." />
+            <marker date="1471989155000" expanded="true" signature="525:729" ph="..." />
+            <marker date="1471989155000" expanded="true" signature="770:970" ph="..." />
+            <marker date="1471989155000" expanded="true" signature="1011:1198" ph="..." />
+            <marker date="1471989155000" expanded="true" signature="1239:1442" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/auth/auth.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding>
+            <element signature="e#46#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/boot.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/header.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <element signature="e#46#88#0" expanded="true" />
+            <marker date="1472157834000" expanded="true" signature="276:752" ph="..." />
+            <marker date="1472157834000" expanded="true" signature="327:734" ph="..." />
+            <marker date="1472157834000" expanded="true" signature="370:715" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/auth/authentication.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <marker date="1471989448000" expanded="true" signature="448:850" ph="..." />
+            <marker date="1471989448000" expanded="true" signature="499:832" ph="..." />
+            <marker date="1471989448000" expanded="true" signature="541:813" ph="..." />
+            <marker date="1471989448000" expanded="true" signature="884:943" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1472160247000" expanded="true" signature="608:703" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-482">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

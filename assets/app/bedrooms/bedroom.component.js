@@ -10,24 +10,26 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
  */
 var core_1 = require("@angular/core");
 var BedroomComponent = (function () {
-    function BedroomComponent(_bedroomService, _houseService) {
+    function BedroomComponent(_bedroomService, _houseService, _errorService) {
         this._bedroomService = _bedroomService;
         this._houseService = _houseService;
+        this._errorService = _errorService;
         this.editClicked = new core_1.EventEmitter();
     }
     BedroomComponent.prototype.ngOnInit = function () {
         var _this = this;
         if (this.bedroom.houseId) {
             this._houseService.getHouseAddress(this.bedroom.houseId)
-                .subscribe(function (data) { return _this.houseAddress = data; }, function (error) { return console.error(error); });
+                .subscribe(function (data) { return _this.houseAddress = data; }, function (error) { return _this._errorService.handleError(error); });
         }
     };
     BedroomComponent.prototype.onEdit = function () {
         this._bedroomService.editBedroom(this.bedroom);
     };
     BedroomComponent.prototype.onDelete = function () {
+        var _this = this;
         this._bedroomService.deleteBedroom(this.bedroom)
-            .subscribe(function (data) { return console.log(data); }, function (error) { return console.error(error); });
+            .subscribe(function (data) { return console.log(data); }, function (error) { return _this._errorService.handleError(error); });
     };
     __decorate([
         core_1.Input()

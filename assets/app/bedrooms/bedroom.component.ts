@@ -6,6 +6,7 @@ import { Component, Input, Output, EventEmitter } from "@angular/core";
 import { Bedroom } from "./bedroom";
 import { BedroomService } from "./bedroom.service";
 import { HouseService } from "../houses/house.service";
+import { ErrorService } from "../errors/error.service";
 
 @Component({
     selector: 'my-bedroom',
@@ -45,14 +46,14 @@ export class BedroomComponent {
     @Output() editClicked = new EventEmitter<string>();
     houseAddress : string;
 
-    constructor (private _bedroomService: BedroomService, private _houseService: HouseService) {}
+    constructor (private _bedroomService: BedroomService, private _houseService: HouseService, private _errorService: ErrorService) {}
 
     ngOnInit(){
         if(this.bedroom.houseId){
             this._houseService.getHouseAddress(this.bedroom.houseId)
                 .subscribe(
                     data => this.houseAddress = data,
-                    error => console.error(error)
+                    error => this._errorService.handleError(error)
                 );
         }
 
@@ -66,7 +67,7 @@ export class BedroomComponent {
         this._bedroomService.deleteBedroom(this.bedroom)
             .subscribe(
                 data => console.log(data),
-                error => console.error(error)
+                error => this._errorService.handleError(error)
             );
     }
 }

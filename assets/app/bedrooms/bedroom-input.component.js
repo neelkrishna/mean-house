@@ -11,9 +11,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var core_1 = require("@angular/core");
 var bedroom_1 = require("./bedroom");
 var BedroomInputComponent = (function () {
-    function BedroomInputComponent(_bedroomService, _houseService) {
+    function BedroomInputComponent(_bedroomService, _houseService, _errorService) {
         this._bedroomService = _bedroomService;
         this._houseService = _houseService;
+        this._errorService = _errorService;
         this.bedroom = null;
         this.houseList = null;
     }
@@ -24,7 +25,7 @@ var BedroomInputComponent = (function () {
             this.bedroom.sqFt = form.sqFt;
             this.bedroom.houseId = form.houseId;
             this._bedroomService.updateBedroom(this.bedroom)
-                .subscribe(function (data) { return console.log(data); }, function (error) { return console.error(error); });
+                .subscribe(function (data) { return console.log(data); }, function (error) { return _this._errorService.handleError(error); });
             this.bedroom = null;
         }
         else {
@@ -33,7 +34,7 @@ var BedroomInputComponent = (function () {
                 .subscribe(function (data) {
                 console.log(data);
                 _this._bedroomService.bedrooms.push(data);
-            }, function (error) { return console.log(error.error); });
+            }, function (error) { return _this._errorService.handleError(error); });
         }
     };
     BedroomInputComponent.prototype.onCancel = function () {
