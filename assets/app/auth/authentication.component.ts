@@ -1,9 +1,5 @@
-/**
- * Created by neelkrishna on 8/23/16.
- */
 import { Component } from "@angular/core";
 import { Routes, ROUTER_DIRECTIVES } from "@angular/router";
-
 import { SignupComponent } from "./signup.component";
 import { SigninComponent } from "./signin.component";
 import { LogoutComponent } from "./logout.component";
@@ -46,5 +42,4 @@ export class AuthenticationComponent {
     isLoggedIn() {
         return this._authService.isLoggedIn();
     }
-
 }
